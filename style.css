@@ -14,3 +14,5 @@ nav{margin-top:56px;padding-top:24px;border-top:1px solid #372D45;font-size:15px
 nav a{margin-right:20px}
 .btn{display:inline-block;background:var(--amber);color:var(--ink);text-decoration:none;font-weight:800;padding:12px 22px;border-radius:999px;margin:8px 12px 8px 0}
 .btn.ghost{background:none;border:2px solid var(--amber);color:var(--amber)}
+
+hr.lang{border:0;border-top:1px solid #372D45;margin:56px 0 0}
