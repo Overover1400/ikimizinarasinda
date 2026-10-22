@@ -1,0 +1,16 @@
+@font-face{font-family:'Fraunces';font-weight:700;src:local('Fraunces')}
+:root{--ink:#15111B;--paper:#F4EFE6;--amber:#E9A23B;--mist:#9A91A8;--sage:#86B89E}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--paper);font-family:'Manrope','Segoe UI',system-ui,sans-serif;line-height:1.7}
+.wrap{max-width:720px;margin:0 auto;padding:64px 24px 96px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:clamp(34px,6vw,52px);line-height:1.1;margin:24px 0 8px}
+h1 em{font-style:normal;color:var(--amber)}
+h2{font-family:'Fraunces',Georgia,serif;font-size:26px;margin:44px 0 8px;color:var(--amber)}
+p,li{color:#d9d3c8;font-size:17px}
+a{color:var(--sage)}
+.logo{width:84px;display:block}
+.sub{color:var(--mist);font-size:18px;margin:0 0 32px}
+nav{margin-top:56px;padding-top:24px;border-top:1px solid #372D45;font-size:15px;color:var(--mist)}
+nav a{margin-right:20px}
+.btn{display:inline-block;background:var(--amber);color:var(--ink);text-decoration:none;font-weight:800;padding:12px 22px;border-radius:999px;margin:8px 12px 8px 0}
+.btn.ghost{background:none;border:2px solid var(--amber);color:var(--amber)}
